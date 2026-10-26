@@ -22,3 +22,10 @@ git lfs install
 
 git lfs pull
 
+## Clonar en GIT BASH
+
+git clone https://github.com/Benja546z/earthquakePage.git
+
+cd earthquakePage
+
+git lfs pull
