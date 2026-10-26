@@ -6,7 +6,7 @@ py -m venv .venv
 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
-.\.venv\Scripts\Activate.ps1
+- .\.venv\Scripts\Activate.ps1
 
 py -m pip install --upgrade pip
 
