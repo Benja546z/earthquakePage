@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 py manage.py runserver
 
-## Descargar DATASET (GIT LFS)
+## Descargar DATASET (GIT LFS & GIT)
 
 git lfs install
 
