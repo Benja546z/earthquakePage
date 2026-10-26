@@ -11,7 +11,7 @@
 - Crear una nueva terminal
 
 Escribir en orden los siguientes comandos:
-- `py -m venv .venv`
+- `py -m venv .venv` si crea un entorno con una versión anterior usar `py -3.12 -m venv .venv`
 - `Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process`
 - `.\.venv\Scripts\Activate.ps1`
 - `py -m pip install --upgrade pip`
