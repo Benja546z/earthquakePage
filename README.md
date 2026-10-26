@@ -17,4 +17,5 @@ Escribir en orden los siguientes comandos:
 - `py -m pip install --upgrade pip`
 - `pip install Django==5.1.14`
 - `pip install -r requirements.txt`
+- migraciones `python manage.py migrate`
 - Iniciar servidor con `py manage.py runserver`
