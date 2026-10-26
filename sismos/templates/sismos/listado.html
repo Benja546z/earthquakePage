@@ -1,0 +1,25 @@
+{% extends 'sismos/base.html' %}
+{% block titulo %}{{ titulo }}{% endblock %}
+{% block contenido %}
+  <h1 class="h3 mb-3">{{ titulo }}</h1>
+  <p class="lead">{{ explicacion }}</p>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Fecha/Hora</th><th>Ubicación</th><th>Magnitud</th><th>Profundidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for sismo in datos %}
+        <tr>
+          <td>{{ sismo.time }}</td>
+          <td>{{ sismo.place }}</td>
+          <td>{{ sismo.mag }}</td>
+          <td>{{ sismo.depth }} km</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
